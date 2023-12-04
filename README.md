@@ -27,10 +27,16 @@ List of frameworks/libraries used to bootstrap the project.
 
 List of things you need to run the project locally and how to install them.
 
+- fork the repo
+- clone the repo
+
 -npm
 
 ```sh
 npm install
+```
+```sh
+npm run dev
 ```
 
 ### 👩‍💻 Issues
