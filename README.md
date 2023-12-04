@@ -30,7 +30,7 @@ List of things you need to start and run the project locally.
 - fork the repo
 - clone the repo
 
--npm
+- npm
 
 ```sh
 npm install
