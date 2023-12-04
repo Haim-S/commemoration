@@ -25,7 +25,7 @@ List of frameworks/libraries used to bootstrap the project.
 
 ### 📃 Prerequisites
 
-List of things you need to run the project locally and how to install them.
+List of things you need to start and run the project locally.
 
 - fork the repo
 - clone the repo
