@@ -4,7 +4,7 @@
 An Commemorative application of soldiers
 <br/>
 <br/>
-<a href="https://nova-haim-s.vercel.app/">App</a>
+<a href="/">App</a>
 </p>
 
 <!-- ABOUT THE PROJECT -->
