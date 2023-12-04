@@ -35,11 +35,11 @@ npm install
 
 ### 👩‍💻 Issues
 
-- [#1]{https://github.com/Haim-S/commemoration/issues/1} Arrange the navbar, according to the following description.
-- [#2]{https://github.com/Haim-S/commemoration/issues/2} To build preparation for a title and a tag for writing text in Hebrew.
-- [#3]{https://github.com/Haim-S/commemoration/issues/3} Build a skeleton for the header component.
-- [#4]{https://github.com/Haim-S/commemoration/issues/4} Build a dynamic card that will tell about each soldier in the AboutSoldiers component.
-- [#5]{https://github.com/Haim-S/commemoration/issues/5} Build a skeleton for the AboutSoldiers component.
-- [#6]{https://github.com/Haim-S/commemoration/issues/6} About the website builders in the footer component.
+- [#1](https://github.com/Haim-S/commemoration/issues/1) Arrange the navbar, according to the following description.
+- [#2](https://github.com/Haim-S/commemoration/issues/2) To build preparation for a title and a tag for writing text in Hebrew.
+- [#3](https://github.com/Haim-S/commemoration/issues/3) Build a skeleton for the header component.
+- [#4](https://github.com/Haim-S/commemoration/issues/4) Build a dynamic card that will tell about each soldier in the AboutSoldiers component.
+- [#5](https://github.com/Haim-S/commemoration/issues/5) Build a skeleton for the AboutSoldiers component.
+- [#6](https://github.com/Haim-S/commemoration/issues/6) About the website builders in the footer component.
 
   <img src="./imageReadMe.png">
