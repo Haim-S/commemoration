@@ -35,11 +35,11 @@ npm install
 
 ### 👩‍💻 Issues
 
-- #1 Arrange the navbar, according to the following description.
-- #2 To build preparation for a title and a tag for writing text in Hebrew.
-- #3 Build a skeleton for the header component.
-- #4 Build a dynamic card that will tell about each soldier in the AboutSoldiers component.
-- #5 Build a skeleton for the AboutSoldiers component.
-- #6 About the website builders in the footer component.
+#1 Arrange the navbar, according to the following description.
+#2 To build preparation for a title and a tag for writing text in Hebrew.
+#3 Build a skeleton for the header component.
+#4 Build a dynamic card that will tell about each soldier in the AboutSoldiers component.
+#5 Build a skeleton for the AboutSoldiers component.
+#6 About the website builders in the footer component.
 
   <img src="./imageReadMe.png">
