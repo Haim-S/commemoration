@@ -6,11 +6,11 @@
   padding: 6rem;
   height: 100vh;
   width: 100%;
-  background-image: url("../../public/asset/pic/pexels-pixabay-461284.jpg");
+  /* background-image: url("../../public/asset/pic/pexels-pixabay-461284.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
-
+/* 
 .continaer::before{
   content: "";
   position: absolute;
@@ -18,5 +18,5 @@
   width: 100%;
   height: 115%;
   background-color: rgba(0, 0, 0, 0.8);
-}
+} */
 

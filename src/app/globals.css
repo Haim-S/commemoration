@@ -1,6 +1,8 @@
 :root{
-  --background: black;
-  --textColor: white;
+  --background: #F3F3F3;
+  --backgroundNavbar: #0766AD;
+  --backgroundFooter: #0766AD;
+  --textColor: #000000;
 }
 
 *{
@@ -15,7 +17,7 @@ body {
   overflow-x: hidden;
 }
 
-
+/* 
 .dark {
   --background: black;
   --textColor: #ddd;
@@ -25,10 +27,10 @@ body {
 .light {
   --background: white;
   --textColor: black;
-}
+} */
 
 
 .container {
   min-height: 100vh;
-  color: white;
+  color: var(--textColor);
 }
