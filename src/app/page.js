@@ -13,7 +13,7 @@ export default function Home() {
       
       <Header/>
       <AboutSoldiers/>
-      <Donations/>
+      {/* <Donations/> */}
      
     </main>
 
