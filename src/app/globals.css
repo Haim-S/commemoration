@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Rashi+Hebrew:wght@100&family=Noto+Serif+Hebrew&family=Whisper&display=swap');
 :root{
   --background: #F3F3F3;
   --backgroundNavbar: #0766AD;
@@ -36,4 +36,5 @@ body {
 .container {
   min-height: 100vh;
   color: var(--textColor);
+ 
 }

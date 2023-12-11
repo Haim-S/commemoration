@@ -1,9 +1,9 @@
-import { Inter } from 'next/font/google'
+import {Noto_Sans_Hebrew } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/footer/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Noto_Sans_Hebrew({ subsets: ['hebrew'], weight: "400" })
 
 export const metadata = {
   title: 'תרומה להנצחת מפקדי שלדג',
