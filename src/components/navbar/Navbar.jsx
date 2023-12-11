@@ -6,7 +6,7 @@ import Image from 'next/image'
 const Navbar = () => {
   return (
     <div className={styles.container}>
-      <Image width={50} height={50} className={styles.logo} src={logo}/>
+      <Image width={50} height={50} className={styles.logo} src={logo} alt='/logoApliction'/>
       <p>הנצחה למפקדי יחידת שלדג</p>
     </div>
   )
