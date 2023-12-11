@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+
 :root{
   --background: #F3F3F3;
   --backgroundNavbar: #0766AD;
   --backgroundFooter: #0766AD;
+  --textColorNavbar: white;
   --textColor: #000000;
 }
 
