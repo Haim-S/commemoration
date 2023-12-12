@@ -1,9 +1,8 @@
 .continaer {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 2px;
   height: 100%;
   width: 100%;
   /* background-image: url("../../public/asset/pic/pexels-pixabay-461284.jpg");

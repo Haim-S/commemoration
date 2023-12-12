@@ -23,6 +23,7 @@ align-items: end;
 
 
 
+
 .textContainer{
     display: flex;
     justify-content: center;
@@ -44,6 +45,7 @@ align-items: end;
     height: 500px; */
     border-radius: 8px;
     display: flex;
+    
     
 }
 
@@ -79,7 +81,7 @@ align-items: end;
     }
     .imageMobile{
         display: flex;
-        align-items: end;
+        margin-left: 150px;
     }
   }
   @media screen and (max-width: 640px) {
@@ -96,7 +98,7 @@ align-items: end;
     }
     .imageMobile{
         display: flex;
-        align-items: end;
+        margin-left: 150px;
     }
 
   }

@@ -3,6 +3,7 @@ import './globals.css'
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/footer/Footer'
 import Donations from '@/components/donations/Donations'
+import Header from '@/components/header/Header'
 
 const inter = Open_Sans({ subsets: ['latin'], weight: "300" })
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navbar/>
+        <Header/>
         {children}
         <Donations/>
         <Footer/>

@@ -49,13 +49,13 @@ const AboutSoldiers = () => {
         {data.map((item, i) => {
           return (
             <div key={i} className={styles.item}>
-              <Image
-                className={styles.imageMobile}
-                width={250}
-                height={250}
-                src={item.img}
-                alt="/soldier_image"
-              />
+                <Image
+                  className={styles.imageMobile}
+                  width={250}
+                  height={250}
+                  src={item.img}
+                  alt='/soldier_image'
+                />
               <div className={styles.textContainer}>
                 <h4>{item.name}</h4>
                 <p>{item.about}</p>
