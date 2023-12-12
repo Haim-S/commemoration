@@ -22,7 +22,7 @@
 }
 
 .link:hover{
-    background-color: var(--backgroundNavbar) !important;
+    background-color: #05518b !important;
 }
 
 .link a{
