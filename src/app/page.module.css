@@ -8,5 +8,11 @@
   
 }
 
-/* .continaer */
+
+@media screen and (min-width: 1280px) {
+  .continaer{
+      padding-left: 10%;
+  padding-right: 10%;
+  }
+}
 
