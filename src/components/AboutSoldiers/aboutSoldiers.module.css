@@ -15,19 +15,16 @@ align-items: end;
     display: grid;
     grid-template-columns:  auto auto;
     margin: 10px 0;
-    /* border: 2px solid rgb(0, 0, 0, 0.2);
-    border-radius: 8px;
-    padding: 10px;
-    width: 70%; */
 }
 
 
 
 
 .textContainer{
-    display: block;
+    /* display: block; */
+    
     flex-direction: column;
-    padding: 0 10px;
+    padding: 10px 10px;
     text-align: end;
 }
 
@@ -86,13 +83,16 @@ align-items: end;
   @media screen and (max-width: 640px) {
     
     .item{
-        display: grid;
-        grid-template-columns:  auto;
-        margin: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: end;
+       
     }
     .textContainer{
         padding: 10px 0;
-        max-width: 600px;
+        width: 90%;
+       
     }
     .image{
         display: none;
