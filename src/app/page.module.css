@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2px;
+  padding: 0 10px;
   height: 100%;
   width: 100%;
   /* background-image: url("../../public/asset/pic/pexels-pixabay-461284.jpg");
