@@ -18,7 +18,7 @@
     justify-content: center;
     position: relative;
     animation: mymove 2s infinite;
- 
+    box-shadow: 10px 5px 10px 5px rgba(0, 0, 0,  0.2);
 }
 
 .link a{
