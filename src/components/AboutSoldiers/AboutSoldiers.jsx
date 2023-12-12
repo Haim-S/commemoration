@@ -42,7 +42,18 @@ const data = [
   },
 ];
 
+// export async function getServerSideProps() {
+//   console.log("getServerSideProps");
+ 
+
+//   return {
+//     props: {data},// will be passed to the page component as props
+//   };
+
+// }
+
 const AboutSoldiers = () => {
+ 
   return (
     <div className={styles.container}>
       <div className={styles.itemContainer}>
