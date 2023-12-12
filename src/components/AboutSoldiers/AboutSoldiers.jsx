@@ -4,8 +4,8 @@ import styles from "./aboutSoldiers.module.css";
 // import {data} from "../../../public/data/dataAboutSoldiers";
 import Image from "next/image";
 import picOne from "./../../../public/asset/picSoldiers/image0.jpeg";
-import picTwo from "./../../../public/asset/picSoldiers/image1.jpeg";
-import picThree from "./../../../public/asset/picSoldiers/image2.jpeg";
+import picTwo from "./../../../public/asset/picSoldiers/image2.jpeg";
+import picThree from "./../../../public/asset/picSoldiers/image1.jpeg";
 
 const data = [
   {
