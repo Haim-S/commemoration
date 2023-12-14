@@ -13,7 +13,7 @@ const Footer = () => {
         <div className={styles.developer}>
           <div className={styles.textContainer}>
           <Image className={styles.img} src={Developer} alt='fsf' />
-            <b>Aviv Haim-s</b>
+            <p className={styles.developerName}>Aviv Haim-s</p>
             <span className={styles.role}>Nodejs Developer</span>
             <br />
           </div>
@@ -25,7 +25,7 @@ const Footer = () => {
           <br />
           <div className={styles.textContainer}>
           <Image className={styles.img} src={Developer1} alt='fsf' />
-            <b>Daniel Elias</b>
+            <p className={styles.developerName}>Daniel Elias</p>
             <span className={styles.role}>Nodejs Developer</span>
             <br />
           </div>
