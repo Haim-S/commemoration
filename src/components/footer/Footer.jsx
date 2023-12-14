@@ -18,7 +18,7 @@ const Footer = () => {
             <br />
           </div>
           <Link href='https://www.linkedin.com/in/aviv-haim-s-874bb0265/'>
-            <FaLinkedin size={30} color='white'></FaLinkedin>
+            <FaLinkedin size={20} color='white'></FaLinkedin>
           </Link>
         </div>
         <div className={styles.developer}>
@@ -30,7 +30,7 @@ const Footer = () => {
             <br />
           </div>
           <Link href='https://www.linkedin.com/in/danieleliastech/'>
-            <FaLinkedin size={30} color='white'></FaLinkedin>
+            <FaLinkedin size={20} color='white'></FaLinkedin>
           </Link>
         </div>
       </div>
