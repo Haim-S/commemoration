@@ -20,22 +20,23 @@
 
 .developer {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 20px;
-    /* margin-top: 20px; */
     text-align: center;
     margin-top: 50px;
-    justify-content: center;
-    width: 300px;
-    background-color: rgba(179, 126, 66, 0.815);
+    /* width: 300px; */
+    /* background-color: #035695; */
     height: 90px;
     justify-content: space-around;
     border-radius: 20px;
 }
 
 
-.d{
-    margin-top: 20px;
+.role{
+    /* margin-top: 20px; */
     display: flex;
+    font-size: 10px;
 }
 
 .btn {
@@ -49,7 +50,7 @@
     color: rgb(255, 255, 255);
 }
 
-.span {
+.textContainer {
     display: flex;
     justify-content: center;
     align-items: center;

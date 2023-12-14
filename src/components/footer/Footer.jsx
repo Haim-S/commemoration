@@ -1,40 +1,42 @@
-import React from 'react';
+import React from "react";
 import styles from "./footer.module.css";
-import Developer from "../../../public/asset/developers/profile2.jpeg"
-import Developer1 from "../../../public/asset/developers/profile1.jpeg"
-import Image from 'next/image'
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Developer from "../../../public/asset/developers/profile2.jpeg";
+import Developer1 from "../../../public/asset/developers/profile1.jpeg";
+import Image from "next/image";
+import { FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
 
 const Footer = () => {
-
-
   return (
     <div className={styles.container}>
       <div className={styles.containerFooter}>
         <div className={styles.developer}>
-          <Image className={styles.img} src={Developer} alt="fsf"  />
-          <div className={styles.span}>
-          <b>Aviv Haim-s</b>
-          <span className={styles.d}>Full Stack Developer</span><br />
+          <div className={styles.textContainer}>
+          <Image className={styles.img} src={Developer} alt='fsf' />
+            <b>Aviv Haim-s</b>
+            <span className={styles.role}>Nodejs Developer</span>
+            <br />
           </div>
-          <a href="https://www.linkedin.com/in/aviv-haim-s-874bb0265/">
-            <LinkedInIcon className={styles.btn}></LinkedInIcon>
-          </a>
+          <Link href='https://www.linkedin.com/in/aviv-haim-s-874bb0265/'>
+            <FaLinkedin size={30} color='white'></FaLinkedin>
+          </Link>
         </div>
         <div className={styles.developer}>
-          <Image className={styles.img} src={Developer1} alt="fsf"  /><br />
-          <div className={styles.span}>
-          <b>Daniel Elias</b>
-          <span className={styles.d}>Full Stack Developer</span><br />
+          <br />
+          <div className={styles.textContainer}>
+          <Image className={styles.img} src={Developer1} alt='fsf' />
+            <b>Daniel Elias</b>
+            <span className={styles.role}>Nodejs Developer</span>
+            <br />
           </div>
-            <a href="https://www.linkedin.com/in/danieleliastech/">
-              <LinkedInIcon className={styles.btn}></LinkedInIcon>
-            </a>
+          <Link href='https://www.linkedin.com/in/danieleliastech/'>
+            <FaLinkedin size={30} color='white'></FaLinkedin>
+          </Link>
         </div>
       </div>
-        <p>&copy; 2023 כל הזכויות שמורות</p>
+      <p>&copy; 2023 כל הזכויות שמורות</p>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
